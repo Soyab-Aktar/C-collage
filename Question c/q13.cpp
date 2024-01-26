@@ -9,7 +9,7 @@ int findsize(string name)
     }
     return count;
 }
-int findsame(string name, int sizestr)
+void findsame(string name, int sizestr)
 {
     int left = 0;
     int right = sizestr - 1;
@@ -25,15 +25,7 @@ int findsame(string name, int sizestr)
         right--;
     }
 
-    return result;
-}
-int main()
-{
-    string name = "moaom";
-    cout << "Hello" << endl;
-    int sizestr = findsize(name);
-    int check = findsame(name, sizestr);
-    if (check == 1)
+    if (result == 1)
     {
         cout << "It is a Palindrom string .";
     }
@@ -41,4 +33,20 @@ int main()
     {
         cout << "Not a palindrom string.";
     }
+}
+int main()
+{
+    string name = "moom";
+
+    int sizestr = findsize(name);
+    // int check = findsame(name, sizestr);
+    findsame(name, sizestr);
+    // if (check == 1)
+    // {
+    //     cout << "It is a Palindrom string .";
+    // }
+    // else
+    // {
+    //     cout << "Not a palindrom string.";
+    // }
 }
