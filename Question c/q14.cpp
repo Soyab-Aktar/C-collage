@@ -22,10 +22,7 @@ int main()
     swapping(&a, &b);
 
     cout << "After swap : " << endl;
-    // int temp;
-    // temp = a;
-    // a = b;
-    // b = temp;
+
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;
 }

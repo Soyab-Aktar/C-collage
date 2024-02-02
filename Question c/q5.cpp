@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
     float n;
+    cout<<"Enter a number : ";
     cin >> n;
     float sum = 0;
 
