@@ -25,4 +25,5 @@ int main()
     }
 
     printf("Product of digit is : %d", mul);
+    
 }
