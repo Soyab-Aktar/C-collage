@@ -1,3 +1,4 @@
+//wap to compute the factor of given number
 #include <stdio.h>
 int main()
 {
